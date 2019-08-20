@@ -1,0 +1,7 @@
+.credits {
+    color: rgba(128, 255, 0, 0.733);
+    position: absolute;
+    top: 93%;
+    left: 3%;
+    text-shadow: 5px 5px 5px rgba(24, 46, 1, 0.733)
+}
