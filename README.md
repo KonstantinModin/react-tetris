@@ -16,7 +16,7 @@ Used custom hooks, 'styled-components'
 	
 ## This project on web
 
-[will be deployed soon]
+https://hungry-leakey-e1f13b.netlify.com/
 
 ## License
 
