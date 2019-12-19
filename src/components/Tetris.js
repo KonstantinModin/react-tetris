@@ -4,7 +4,6 @@ import { StyledTetrisWrapper, StyledTetris } from './styles/StyledTetris';
 import Stage from './Stage';
 import Display from './Display';
 import Button from './Button';
-import PropTypes from 'prop-types';
 import { usePlayer } from '../hooks/usePlayer';
 import { useStage } from '../hooks/useStage';
 import { useInterval } from '../hooks/useInterval';
@@ -138,10 +137,6 @@ const Tetris = () => {
             <h2 className="credits"> Designed in React by Konstantin Modin </h2>            
         </StyledTetrisWrapper>
     )
-}
-
-Tetris.propTypes = {
-
 }
 
 export default Tetris;
