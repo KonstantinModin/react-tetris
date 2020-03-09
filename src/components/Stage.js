@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Cell from './Cell';
 import { StyledStage } from '../components/styles/StyledStage';
 
-const Stage = ({ stage }) => {
+const Stage = ({ stage }) => {    
     return (
         <StyledStage width={stage[0].length} height={stage.length}>
            {stage.map(row => row.map((cell, x)=> <Cell key={x} type={cell[0]}/>))}
@@ -12,7 +12,7 @@ const Stage = ({ stage }) => {
 }
 
 Stage.propTypes = {
-
+   stage: PropTypes.array.isRequired
 }
 
 export default Stage;
