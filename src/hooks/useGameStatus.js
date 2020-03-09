@@ -18,7 +18,7 @@ export const useGameStatus = rowsCleared => {
             audio.play();
         }
 
-    }, [level, linePoints, rowsCleared]);
+    }, [audio, level, linePoints, rowsCleared]);
 
     useEffect(() => {
         calcScore();
