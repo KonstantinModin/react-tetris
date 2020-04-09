@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledDisplay = styled.div`
     box-sizing: border-box;
@@ -10,8 +10,8 @@ export const StyledDisplay = styled.div`
     min-height: 30px;
     width: 100%;
     border-radius: 3px;
-    color: ${props => props.gameOver ? 'red' : 'chartreuse'};
-    background: rgba(0,0,0,0.5);
+    color: ${(props) => (props.gameOver ? "red" : "chartreuse")};
+    background: rgba(0, 0, 0, 0.5);
     font-family: Pixel, Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
-`
+`;

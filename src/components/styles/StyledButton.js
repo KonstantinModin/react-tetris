@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledButton = styled.button`
     box-sizing: border-box;
@@ -14,4 +14,4 @@ export const StyledButton = styled.button`
     font-size: 1rem;
     outline: none;
     cursor: pointer;
-`
+`;
