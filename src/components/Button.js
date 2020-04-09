@@ -14,7 +14,7 @@ const Button = ({ callBack, caption, disabled }) => {
 Button.propTypes = {
     callBack: PropTypes.func.isRequired,
     caption: PropTypes.string.isRequired,
-    disabled: PropTypes.bool
+    disabled: PropTypes.bool,
 };
 
 export default Button;

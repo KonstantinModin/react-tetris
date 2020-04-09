@@ -29,7 +29,7 @@ const Tetris = () => {
 
     // console.log('Tetris re-renders');
 
-    const movePlayer = dir => {
+    const movePlayer = (dir) => {
         if (!checkCollision(player, stage, { x: dir, y: 0 })) {
             updatePlayerPos({ x: dir, y: 0 });
             aTick.play();
@@ -52,7 +52,7 @@ const Tetris = () => {
         // increase level 10 rows
         if (!pauseGame) {
             if (rows > (level + 1) * 10) {
-                setLevel(prev => prev + 1);
+                setLevel((prev) => prev + 1);
                 setDropTime(1000 / (level + 1) + 200);
             }
 
@@ -111,7 +111,7 @@ const Tetris = () => {
 
     const pauseGameHandler = () => {
         console.log("pause");
-        setPauseGame(prev => !prev);
+        setPauseGame((prev) => !prev);
     };
 
     useInterval(() => drop(), dropTime);
