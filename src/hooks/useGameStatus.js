@@ -8,6 +8,7 @@ export const useGameStatus = (rowsCleared) => {
     const [rows, setRows] = useState(0);
     const [level, setLevel] = useState(0);
 
+    // more points for more lines hit
     const linePoints = [40, 100, 300, 1200];
 
     const calcScore = useCallback(() => {
